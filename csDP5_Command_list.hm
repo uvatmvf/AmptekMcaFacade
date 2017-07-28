@@ -1,0 +1,76 @@
+Command	Support*		ORDER		Description
+RESC		All			1		Reset Configuration
+CLCK		All			2		20MHz/80MHz
+TPEA		All			3		Peaking time
+GAIN		All			4		Total Gain (analog * fine)
+RESL		All			4		Detector Reset lockout
+SCTC		6.08.01; G; 	T	4		Set scintillator time constant
+TFLA		All			4		Flat top
+TPFA		All			4		Fast channel peaking time
+TPFA		6.07.05		4		Fast channel peaking time
+GAIF		ALL			4 		Fine gain 
+PURE		D;P;G			4 (#)		PUR interval; on/off
+RTDE		All			5		RTD on/off
+MCAS		All			6		MCA Source
+RTDD		All			6		Custom RTD oneshot delay
+RTDW		All			6		Custom RTD oneshot width
+AINP		All					Analog input pos/neg
+INOF		ALL; D; P		AINP (DEF)	Input offset
+AU34		6.08.04; P				Select AUX3/4 mode
+AUO1		prior to 6.08.02			AUX_OUT1 selection
+AUO1		6.08.02				AUX_OUT1 selection
+AUO2		prior to 6.08.02			AUX_OUT2 selection
+AUO2		6.08.02				AUX_OUT2 selection
+BLRD		All					BLR down correction
+BLRM		All					BLR mode
+BLRU		All					BLR up correction
+BOOT		ALL; D				Turn supplies on/off at power up
+CON1		6.03; P; G				Select Connector 1 signal
+CON2		6.03; P; G				Select Connector 2 signal
+CLKL		6.06.05				List-mode clock
+CUSP		All					Non-trapezoidal shaping
+DACF		All					DAC offset
+DACO		All					DAC output
+GAIA		ALL					Analog gain index
+GATE		ALL; D				Gate control
+GPED		All					G.P. counter edge
+GPGA		All					G.P. counter uses GATE
+GPIN		All					G.P. counter input
+GPMC		All					G.P. counter cleared w/MCA counters?
+GPME		All					G.P. counter uses MCA_EN?
+HVSE		All					HV set
+INOG		6.06; P				Input offset gain
+MCAC		All					MCA/MCS channels
+MCAE		All					MCA/MCS enable
+SOFF		All			after MCAC	Set spectrum offset
+MCSL		6.01					MCS low threshold
+MCSH		6.01					MCS high threshold
+MCST		All					MCS timebase
+PAPS		ALL; D; P				preamp 8.5/5
+PAPZ		6.05; P				Preamp pole-zero cancellation
+PDMD		D;P;G					Peak detect mode (min/max)
+PDMD		M					Peak detect mode
+PRCL		6.01					Preset counts; low threshold
+PRCH		6.01					Preset counts; high threshold
+PREC		All					Preset counts
+PREL		6.07.00; M				Preset Livetime
+PRER		6.01					Preset Real Time
+PRET		ALL; D; P; G			Preset time
+PURE		M					PUR Enable
+RTDS		All					RTD sensitivity
+RTDT		All					RTD threshold
+SCAH		All					SCAx high threshold
+SCAI		All					SCA index
+SCAL		All					SCAx low theshold
+SCAO		All					SCAx output (SCA1-8 only)
+SCAW		All					SCA pulse width (not indexed - SCA1-8)
+SCOE		All					Scope trigger edge
+SCOG		All					Digital scope gain
+SCOT		All					Scope trigger position
+SYNC		6.06.05				List-mode sync source
+TECS		ALL; D; P				TEC set
+THFA		All					Fast threshold
+THSL		All					Slow threshold
+TLLD		6.01					LLD threshold
+TPMO		All					Test pulser on/off
+VOLU		ALL; P				Volume [PX5 only]
